@@ -172,3 +172,71 @@
     }
 
 }
+
+
+.well:hover .ex-13-top-white{
+    animation-name: spinning_square_two;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.well:hover .ex-13-bottom-white{
+    animation-name: spinning_square_back_two;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes spinning_square_two {
+    0%{
+       translate : 0px;
+    }
+    
+    25%{
+        translate : 120px ;
+    }
+
+    50%{
+        translate : 120px  60px;
+    }
+
+    75%{
+        translate: -45px  60px;
+    }
+
+    100%{
+        translate: -45px  0;
+    }
+
+}
+
+
+@keyframes spinning_square_back_two {
+    0%{
+       translate : 0px;
+    }
+    
+    20%{
+        translate : -100px 0 ;
+    }
+
+    40%{
+        translate : -100px  -60px;
+    }
+
+    60%{
+        translate: 50px -60px;
+    } 
+
+    80%{
+        translate: 50px  10px;
+    }
+
+    100%{
+        translate: 0  10px;
+    }
+
+
+}
+
+
