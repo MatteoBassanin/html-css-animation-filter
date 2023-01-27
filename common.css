@@ -149,7 +149,7 @@
     }
     
     50%{
-        translate : 100px ;
+        translate : 90px ;
     }
 
     100%{
@@ -170,4 +170,5 @@
     100%{
         translate: 0px;
     }
+
 }
