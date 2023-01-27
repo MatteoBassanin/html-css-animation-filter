@@ -88,3 +88,20 @@
     filter: contrast(50%) sepia(70%);
     border-radius: 25px;
 }
+
+.col-xs-12 .well .ex-10-icon{
+    animation-name: spinning;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes spinning {
+    0%{
+       rotate:0;
+    }
+    
+    100%{
+        rotate:360deg;
+    }
+}
