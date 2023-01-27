@@ -106,3 +106,30 @@
         rotate:360deg;
     }
 }
+
+
+.ex-11-icon:hover{
+    animation-name: spinning_two;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes spinning_two {
+    0%{
+       rotate:0;
+    }
+    
+    75%{
+        rotate:270deg;
+    }
+
+    100%{
+        rotate:0;
+    }
+}
+
+
+
+
+
