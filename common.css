@@ -87,6 +87,7 @@
     transition: 3s;
     filter: contrast(50%) sepia(70%);
     border-radius: 25px;
+    transform: scale(1.5);
 }
 
 .col-xs-12 .well .ex-10-icon{
