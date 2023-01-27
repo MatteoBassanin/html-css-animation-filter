@@ -130,6 +130,44 @@
 }
 
 
+.well:hover .ex-12-top-white{
+    animation-name: spinning_square;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.well:hover .ex-12-bottom-white{
+    animation-name: spinning_square_back;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
 
 
+@keyframes spinning_square {
+    0%{
+       translate : 0px;
+    }
+    
+    50%{
+        translate : 100px ;
+    }
 
+    100%{
+        translate: 0px;
+    }
+}
+
+
+@keyframes spinning_square_back {
+    0%{
+       translate : 0px;
+    }
+    
+    50%{
+        translate : -80px ;
+    }
+
+    100%{
+        translate: 0px;
+    }
+}
